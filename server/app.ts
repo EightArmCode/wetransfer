@@ -12,6 +12,7 @@ class App {
       res.json({ message: 'Go away, world!' })
     })
     this.express.use('/', router)
+    this.express.use(express.static('dist'))
   }
 }
 export default new App().express
