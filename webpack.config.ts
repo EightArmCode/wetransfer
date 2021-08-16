@@ -6,7 +6,7 @@ const isDev = process.env.NODE_ENV === 'development'
 
 export default {
     entry: resolve(__dirname, 'src/index.tsx'),
-    mode: process.env.NODE_ENV,
+    mode: process.env.NODE_ENV || 'production',
     ...(isDev && { devtool: 'inline-source-map' }),
     ...(isDev && { devServer: {
         hot: true,

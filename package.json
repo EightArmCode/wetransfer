@@ -5,14 +5,14 @@
   "main": "index.tsx",
   "scripts": {
     "dev": "yarn webpack serve -c webpack.config.ts",
-    "start": "yarn build && ts-node server/index.ts",
+    "start": "ts-node server/index.ts",
     "build": "npx webpack build",
     "test": "jest",
     "postinstall": "tsc",
     "deploy": "git add . && git commit -m Heroku && git push heroku master"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.17.x"
   },
   "repository": "wetransfer",
   "author": "EightArmCode",
