@@ -4,8 +4,9 @@
   "description": "Build the famous WeTransfer spinner from scratch!",
   "main": "index.tsx",
   "scripts": {
-    "start": "yarn webpack serve -c webpack.config.ts",
-    "build": "yarn webpack build",
+    "dev": "yarn webpack serve -c webpack.config.ts",
+    "start": "yarn build && ts-node server/index.ts",
+    "build": "npx webpack build",
     "test": "jest",
     "postinstall": "tsc",
     "deploy": "git add . && git commit -m Heroku && git push heroku master"

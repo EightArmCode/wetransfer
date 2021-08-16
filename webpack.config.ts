@@ -11,8 +11,7 @@ export default {
     ...(isDev && { devServer: {
         hot: true,
         compress: true,
-        port: 1917,
-        // https: true,
+        port: 5000,
         contentBase: join(__dirname, 'dist'),
     }}),
     module: {
@@ -47,8 +46,8 @@ export default {
     },
     output: {
         filename: '[name].bundle.js',
-        path: join(__dirname, 'dist'),
-        publicPath: resolve(__dirname, 'dist'),
+        path: join(__dirname, 'public'),
+        publicPath: join('./'),
     },
     plugins: [
         new HtmlWebpackPlugin({
