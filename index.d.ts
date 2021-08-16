@@ -4,3 +4,4 @@ declare module '*.jpg' {
 }
 
 declare module 'react-dom'
+declare module 'express'
