@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SpinnerGallery /> renders correctly 1`] = `
+.fullPage {
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-origin: border-box;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url([object Object]);
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+.spinnerGallery {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  height: 80vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-small {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 10%), 0 10px 30px 0 rgba(0, 0, 0, 20%);
+  height: 200px;
+  width: 200px;
+}
+
+.card-medium {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 10%), 0 10px 30px 0 rgba(0, 0, 0, 20%);
+  height: 400px;
+  width: 400px;
+}
+
+.card-large {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 10%), 0 10px 30px 0 rgba(0, 0, 0, 20%);
+  height: 600px;
+  width: 600px;
+}
+
+.spinner {
+  -ms-grid-row-align: center;
+  -ms-flex-item-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  align-self: center;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.label-small {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.ringBackground {
+  fill: transparent;
+  stroke: #eee;
+  stroke-width: 12;
+}
+
+.ringAnimation {
+  fill: transparent;
+  stroke: rgb(64, 159, 255);
+  stroke-width: 12;
+  stroke-linecap: round;
+}
+
+.label-medium {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  font-size: 5rem;
+}
+
+.label-large {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  font-size: 7rem;
+}
+
+.interactions {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #eaf2dd;
+  padding: 24px;
+}
+
+.buttonsWrapper {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+<div>
+  <article
+    class="fullPage"
+  >
+    <div
+      class="spinnerGallery"
+    >
+      <div
+        class="card-small"
+      >
+        <div
+          class="spinner"
+        >
+          <div
+            class="label-small"
+          >
+            0%
+          </div>
+          <svg
+            role="progressbar"
+            shape-rendering="geometricPrecision"
+            viewBox="0 0 180 180"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Circle spinner
+            </title>
+            <desc>
+              An animated circle which spins to countdown the progress of your upload job.
+            </desc>
+            <circle
+              class="ringBackground"
+              cx="90"
+              cy="90"
+              data-testid="circle"
+              id="background"
+              r="84"
+            />
+            <circle
+              class="ringAnimation"
+              cx="90"
+              cy="90"
+              data-testid="circle"
+              id="progress"
+              r="84"
+              stroke-dasharray="528 528"
+              stroke-dashoffset="528"
+            />
+            <animate
+              attributeName="stroke-dashoffset"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              href="#progress"
+              values="0; 528;"
+            />
+            <animate
+              additive="sum"
+              attributeName="stroke-dasharray"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              from="0"
+              href="#progress"
+              to="0"
+            />
+            <animatetransform
+              attributeName="transform"
+              data-testid="animation element"
+              from="0"
+              to="360"
+              type="rotate"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="card-medium"
+      >
+        <div
+          class="spinner"
+        >
+          <div
+            class="label-medium"
+          >
+            0%
+          </div>
+          <svg
+            role="progressbar"
+            shape-rendering="geometricPrecision"
+            viewBox="0 0 360 360"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Circle spinner
+            </title>
+            <desc>
+              An animated circle which spins to countdown the progress of your upload job.
+            </desc>
+            <circle
+              class="ringBackground"
+              cx="180"
+              cy="180"
+              data-testid="circle"
+              id="background"
+              r="174"
+            />
+            <circle
+              class="ringAnimation"
+              cx="180"
+              cy="180"
+              data-testid="circle"
+              id="progress"
+              r="174"
+              stroke-dasharray="1093 1093"
+              stroke-dashoffset="1093"
+            />
+            <animate
+              attributeName="stroke-dashoffset"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              href="#progress"
+              values="0; 1093;"
+            />
+            <animate
+              additive="sum"
+              attributeName="stroke-dasharray"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              from="0"
+              href="#progress"
+              to="0"
+            />
+            <animatetransform
+              attributeName="transform"
+              data-testid="animation element"
+              from="0"
+              to="360"
+              type="rotate"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="card-large"
+      >
+        <div
+          class="spinner"
+        >
+          <div
+            class="label-large"
+          >
+            0%
+          </div>
+          <svg
+            role="progressbar"
+            shape-rendering="geometricPrecision"
+            viewBox="0 0 540 540"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Circle spinner
+            </title>
+            <desc>
+              An animated circle which spins to countdown the progress of your upload job.
+            </desc>
+            <circle
+              class="ringBackground"
+              cx="270"
+              cy="270"
+              data-testid="circle"
+              id="background"
+              r="264"
+            />
+            <circle
+              class="ringAnimation"
+              cx="270"
+              cy="270"
+              data-testid="circle"
+              id="progress"
+              r="264"
+              stroke-dasharray="1659 1659"
+              stroke-dashoffset="1659"
+            />
+            <animate
+              attributeName="stroke-dashoffset"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              href="#progress"
+              values="0; 1659;"
+            />
+            <animate
+              additive="sum"
+              attributeName="stroke-dasharray"
+              begin="start.click"
+              data-testid="animation element"
+              end="stop.click"
+              fill="freeze"
+              from="0"
+              href="#progress"
+              to="0"
+            />
+            <animatetransform
+              attributeName="transform"
+              data-testid="animation element"
+              from="0"
+              to="360"
+              type="rotate"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="interactions"
+    >
+      <div
+        class="buttonsWrapper"
+      >
+        <div
+          aria-label="outlined primary button group"
+          class="MuiButtonGroup-root"
+          role="group"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlinedPrimary MuiButton-outlinedPrimary"
+            id="start"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Start
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlinedPrimary MuiButton-outlinedPrimary"
+            id="stop"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Stop
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlinedPrimary MuiButton-outlinedPrimary"
+            id="reset"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Reset
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <span
+        class="MuiSlider-root MuiSlider-colorPrimary MuiSlider-marked"
+        data-testid="internal-slider"
+        id="slider"
+        role="slider"
+      >
+        <span
+          class="MuiSlider-rail"
+        />
+        <span
+          class="MuiSlider-track"
+          style="left: 0%; width: 5%;"
+        />
+        <input
+          type="hidden"
+          value="5"
+        />
+        <span
+          class="MuiSlider-mark MuiSlider-markActive"
+          data-index="0"
+          style="left: 5%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel MuiSlider-markLabelActive"
+          data-index="0"
+          style="left: 5%;"
+        >
+          5%
+        </span>
+        <span
+          class="MuiSlider-mark"
+          data-index="1"
+          style="left: 10%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel"
+          data-index="1"
+          style="left: 10%;"
+        >
+          10%
+        </span>
+        <span
+          class="MuiSlider-mark"
+          data-index="2"
+          style="left: 25%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel"
+          data-index="2"
+          style="left: 25%;"
+        >
+          25%
+        </span>
+        <span
+          class="MuiSlider-mark"
+          data-index="3"
+          style="left: 50%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel"
+          data-index="3"
+          style="left: 50%;"
+        >
+          50%
+        </span>
+        <span
+          class="MuiSlider-mark"
+          data-index="4"
+          style="left: 75%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel"
+          data-index="4"
+          style="left: 75%;"
+        >
+          75%
+        </span>
+        <span
+          class="MuiSlider-mark"
+          data-index="5"
+          style="left: 90%;"
+        />
+        <span
+          aria-hidden="true"
+          class="MuiSlider-markLabel"
+          data-index="5"
+          style="left: 90%;"
+        >
+          90%
+        </span>
+        <span
+          aria-labelledby="discrete-slider-custom"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="5"
+          aria-valuetext="5%"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+          data-index="0"
+          role="slider"
+          style="left: 5%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-4"
+            >
+              <span
+                class="PrivateValueLabel-label-5"
+              >
+                5
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </div>
+  </article>
+</div>
+`;

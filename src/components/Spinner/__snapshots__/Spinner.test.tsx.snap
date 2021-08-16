@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> renders the different spinner sizes 1`] = `
+.spinner {
+  -ms-grid-row-align: center;
+  -ms-flex-item-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  align-self: center;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.label-small {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.ringBackground {
+  fill: transparent;
+  stroke: #eee;
+  stroke-width: 12;
+}
+
+.ringAnimation {
+  fill: transparent;
+  stroke: rgb(64, 159, 255);
+  stroke-width: 12;
+  stroke-linecap: round;
+}
+
+<div>
+  <div
+    class="spinner"
+  >
+    <div
+      class="label-small"
+    >
+      0%
+    </div>
+    <svg
+      role="progressbar"
+      shape-rendering="geometricPrecision"
+      viewBox="0 0 180 180"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        Circle spinner
+      </title>
+      <desc>
+        An animated circle which spins to countdown the progress of your upload job.
+      </desc>
+      <circle
+        class="ringBackground"
+        cx="90"
+        cy="90"
+        data-testid="circle"
+        id="background"
+        r="84"
+      />
+      <circle
+        class="ringAnimation"
+        cx="90"
+        cy="90"
+        data-testid="circle"
+        id="progress"
+        r="84"
+        stroke-dasharray="528 528"
+        stroke-dashoffset="528"
+      />
+      <animate
+        attributeName="stroke-dashoffset"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        href="#progress"
+        values="0; 528;"
+      />
+      <animate
+        additive="sum"
+        attributeName="stroke-dasharray"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        from="0"
+        href="#progress"
+        to="0"
+      />
+      <animatetransform
+        attributeName="transform"
+        data-testid="animation element"
+        from="0"
+        to="360"
+        type="rotate"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Spinner /> renders the different spinner sizes 2`] = `
+<div>
+  <div
+    class="spinner_e3n2sk"
+  >
+    <div
+      class="label_apy87t-o_O-medium_cc59vk"
+    >
+      0%
+    </div>
+    <svg
+      role="progressbar"
+      shape-rendering="geometricPrecision"
+      viewBox="0 0 360 360"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        Circle spinner
+      </title>
+      <desc>
+        An animated circle which spins to countdown the progress of your upload job.
+      </desc>
+      <circle
+        class="ringBackground_sl3i9f"
+        cx="180"
+        cy="180"
+        data-testid="circle"
+        id="background"
+        r="174"
+      />
+      <circle
+        class="ringAnimation_1jfkq2a"
+        cx="180"
+        cy="180"
+        data-testid="circle"
+        id="progress"
+        r="174"
+        stroke-dasharray="1093 1093"
+        stroke-dashoffset="1093"
+      />
+      <animate
+        attributeName="stroke-dashoffset"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        href="#progress"
+        values="0; 1093;"
+      />
+      <animate
+        additive="sum"
+        attributeName="stroke-dasharray"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        from="0"
+        href="#progress"
+        to="0"
+      />
+      <animatetransform
+        attributeName="transform"
+        data-testid="animation element"
+        from="0"
+        to="360"
+        type="rotate"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Spinner /> renders the different spinner sizes 3`] = `
+<div>
+  <div
+    class="spinner_e3n2sk"
+  >
+    <div
+      class="label_apy87t-o_O-large_wvwarm"
+    >
+      0%
+    </div>
+    <svg
+      role="progressbar"
+      shape-rendering="geometricPrecision"
+      viewBox="0 0 540 540"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        Circle spinner
+      </title>
+      <desc>
+        An animated circle which spins to countdown the progress of your upload job.
+      </desc>
+      <circle
+        class="ringBackground_sl3i9f"
+        cx="270"
+        cy="270"
+        data-testid="circle"
+        id="background"
+        r="264"
+      />
+      <circle
+        class="ringAnimation_1jfkq2a"
+        cx="270"
+        cy="270"
+        data-testid="circle"
+        id="progress"
+        r="264"
+        stroke-dasharray="1659 1659"
+        stroke-dashoffset="1659"
+      />
+      <animate
+        attributeName="stroke-dashoffset"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        href="#progress"
+        values="0; 1659;"
+      />
+      <animate
+        additive="sum"
+        attributeName="stroke-dasharray"
+        begin="start.click"
+        data-testid="animation element"
+        end="stop.click"
+        fill="freeze"
+        from="0"
+        href="#progress"
+        to="0"
+      />
+      <animatetransform
+        attributeName="transform"
+        data-testid="animation element"
+        from="0"
+        to="360"
+        type="rotate"
+      />
+    </svg>
+  </div>
+</div>
+`;
