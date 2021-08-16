@@ -12,7 +12,7 @@ export default {
         hot: true,
         compress: true,
         port: 1917,
-        https: true,
+        // https: true,
         contentBase: join(__dirname, 'dist'),
     }}),
     module: {
