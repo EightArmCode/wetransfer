@@ -48,6 +48,7 @@ export default {
     output: {
         filename: '[name].bundle.js',
         path: join(__dirname, 'dist'),
+        // publicPath: resolve(__dirname, 'dist'),
     },
     plugins: [
         new HtmlWebpackPlugin({
