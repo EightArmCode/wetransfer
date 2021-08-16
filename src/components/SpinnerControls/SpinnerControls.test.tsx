@@ -1,10 +1,6 @@
 import React from 'react'
 import SpinnerControls from './SpinnerControls'
 import {cleanup, render, fireEvent} from '@testing-library/react'
-import Enzyme from 'enzyme'
-import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
-
-Enzyme.configure({ adapter: new Adapter() })
 
 let mockFn: () => void
 beforeEach(() => {
